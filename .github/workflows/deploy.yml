@@ -13,7 +13,7 @@ jobs:
     env:
       MONGODB_USERNAME: dhyeyshah0208_db_user
       MONGODB_PASSWORD: bS8XP1onq9pjlGYg
-      MONGODB_DB_NAME: cluster0.gqdt1nq.mongodb.net
+      MONGODB_CLUSTER_ADDRESS: cluster0.gqdt1nq.mongodb.net
       PORT: 3000
     steps:
       - name: Get Code
